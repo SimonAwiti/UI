@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Times new romans, Times, seri; text-align: left-side; background-color:WhiteSmoke}
+form {border: 1px solid #A9A9A9;}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #778899;
+    color: black;
+    padding: 7px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 20px;
+	width: 70%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+</style>
+</head>
+<body>
+
+<h2>User Log In</h2>
+
+<form 
+
+  <div class="container">
+    <label for="uname"><b>User name</b></label>
+    <input type="text" placeholder="Input Username" name="uname" required>
+
+    <label for="psw"><b><br>Password</b></label>
+    <input type="password" placeholder="Input Password" name="psw" required>
+        
+    <button type="submit"><br>Sign in</br></button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember">Remember me
+    </label>
+  </div>
+</form>
+
+</body>
+</html>
